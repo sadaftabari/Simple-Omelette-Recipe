@@ -1,0 +1,9 @@
+*{padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:;}
+    body{background-color: #F9D689;}
+    ul li{list-style-type: circle;}
+    li{
+    line-height: 1.7;}
+    .mg-20-0{margin: 20px 0;}

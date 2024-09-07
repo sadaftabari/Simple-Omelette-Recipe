@@ -1,0 +1,86 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  img {
+    display: block;
+    width: 100%;
+  }
+  .heroimage img {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 15px;
+  }
+  .header-title h1 {
+    margin-bottom: 10px;
+    color: #973131;
+  }
+  .Preparation-time {
+    background-color: #fbd3e9;
+    padding: 25px;
+    box-shadow: 15px;
+    border-radius: 15px;
+  }
+  .Preparation-time h3 {
+    color: #973131;
+  }
+  
+  .Preparation-time ul {
+    margin: 5px 0 0 22px;
+  }
+  .Ingredients ul {
+    margin: 5px 0 0 22px;
+  }
+  .Ingredients {
+    border-bottom: solid 3px hsl(30, 18%, 87%);
+    padding-bottom: 20px;
+  }
+  .Ingredients h2 {
+    color: #973131;
+  }
+  .Instructions ol {
+    margin: 5px 0 0 22px;
+  }
+  .Instructions {
+    border-bottom: solid 3px hsl(30, 18%, 87%);
+    padding-bottom: 20px;
+  }
+  .Nutrition {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .Nutrition span {
+    display: block;
+  }
+  .case {
+    width: 50%;
+  }
+  .measure {
+    width: 50%;
+  }
+  .case span {
+    border-bottom: solid 3px hsl(30, 18%, 87%);
+    padding: 10px 0 10px 15px;
+  }
+  .measure span {
+    border-bottom: solid 3px hsl(30, 18%, 87%);
+    padding: 10px 0 10px 15px;
+    font-weight: 700;
+    color: #973131;
+  }
+  .table h2 {
+    margin-bottom: 10px;
+    color: #973131;
+  }
+  
+  /* start responsive */
+  @media (max-width: 768px) {
+    .container {
+      padding: 1rem;
+      margin: 0 auto;
+    }
+  }
+  
